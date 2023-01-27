@@ -1,8 +1,9 @@
 export class Configuration {
-  settings = [
-    { name: "language", value: "en" },
-    { name: "debug", value: false },
-  ];
+  settings = [];
+
+  init(settings) {
+    this.settings = settings;
+  }
 
   getSetting(name) {
     const setting = this.settings.find((value) => value.name === name);
