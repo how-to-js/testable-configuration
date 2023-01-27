@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/how-to-js/testable-configuration/issues"
   },
-  "homepage": "https://github.com/how-to-js/testable-configuration#readme"
+  "homepage": "https://github.com/how-to-js/testable-configuration#readme",
+  "devDependencies": {
+    "jasmine": "^4.5.0"
+  }
 }
