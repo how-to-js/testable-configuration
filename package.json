@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Example code for an article at https://how-to.dev/.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "jasmine"
   },
