@@ -13,8 +13,8 @@ describe("Configuration", () => {
       debug: false,
     });
 
-    expect(configuration.getSetting("language")).toEqual("en");
-    expect(configuration.getSetting("debug")).toEqual(false);
+    expect(configuration.getLanguage()).toEqual("en");
+    expect(configuration.getDebug()).toEqual(false);
 
     // reinitiate with other values
     configuration.init({
@@ -22,7 +22,7 @@ describe("Configuration", () => {
       debug: true,
     });
 
-    expect(configuration.getSetting("language")).toEqual("es");
-    expect(configuration.getSetting("debug")).toEqual(true);
+    expect(configuration.getLanguage()).toEqual("es");
+    expect(configuration.getDebug()).toEqual(true);
   });
 });

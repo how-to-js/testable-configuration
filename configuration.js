@@ -5,7 +5,11 @@ export class Configuration {
     this.settings = settings;
   }
 
-  getSetting(name) {
-    return this.settings[name];
+  getLanguage() {
+    return this.settings["language"];
+  }
+
+  getDebug() {
+    return this.settings["debug"];
   }
 }
