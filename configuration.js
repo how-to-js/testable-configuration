@@ -1,13 +1,11 @@
 export class Configuration {
-  settings = [];
+  settings = {};
 
   init(settings) {
     this.settings = settings;
   }
 
   getSetting(name) {
-    const setting = this.settings.find((value) => value.name === name);
-
-    return setting.value;
+    return this.settings[name];
   }
 }
