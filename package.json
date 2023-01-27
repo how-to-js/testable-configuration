@@ -1,0 +1,19 @@
+{
+  "name": "testable-configuration",
+  "version": "1.0.0",
+  "description": "Example code for an article at https://how-to.dev/.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/how-to-js/testable-configuration.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/how-to-js/testable-configuration/issues"
+  },
+  "homepage": "https://github.com/how-to-js/testable-configuration#readme"
+}
